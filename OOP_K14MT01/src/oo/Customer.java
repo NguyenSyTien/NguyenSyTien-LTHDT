@@ -1,10 +1,17 @@
 package oo;
-
 public class Customer {
-   String cusName;
-   string address;
-System.out.print("ten nhan vien" + emName);
-System.out.print("tien luong" + salary);
 
-    
+   //data
+   String cusName;
+   String address;
+   //...
+
+   //function
+   void show(){
+       System.out.println("Name: " + cusName);
+       System.out.println("Address: " + address);
+   }
+
+   ///....
+   
 }

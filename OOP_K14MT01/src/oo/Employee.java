@@ -1,20 +1,15 @@
 package oo;
 
 public class Employee {
-     public static void main(String[] args) {
-     Account employee;
-     employee = new employee();
-     employee.show();
-     employee.emName();
-     employee.salary();
-     employee.showEmployee();
 
-     
+    //data
+    String emName;
+    double salary;
 
-
-
-    
-        
+    //function
+    void show(){
+        System.out.println("Name: " + emName);
+        System.out.println("Salary: " + salary);
     }
     
 }
