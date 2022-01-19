@@ -1,5 +1,5 @@
 package oo;
-public class EmployeeTestDrive {
+public class EmplyeeTest{
 
     public static void main(String[] args) {
         // bien tham chieu doi tuong ten employee kieu la class Employee
