@@ -10,10 +10,10 @@ void xoay(){
 
 }
 void phatNhac(){
-    System.out.println("chơi file nhac"+fileAmThanh)
+    System.out.println("chơi file nhac"+fileAmThanh);
 }
 
     
 }
     
-}
+
