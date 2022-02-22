@@ -6,9 +6,6 @@ public class sanpham {
    private String tenSp;
    private double donGia;
    private double giamGia;
-    public String getTenSp(){  
-        return tenSp;
-    }
     public void setTenSP(String tenSp){
         this.tenSp = tenSp;
     }
@@ -24,15 +21,23 @@ public class sanpham {
     public void setgiamGia(Double giamGia){
         this.giamGia = giamGia;
     }
+    public sanpham(String sp2, int i, int j){
+        this.tenSp = sp2;
+        this.donGia = i;
+        this.giamGia = j;
+    }
     public sanpham(){
 
     }
     public sanpham(String tenSp, Double donGia, Double giamGia){
         this.tenSp = tenSp;
         this.donGia = donGia;
-        this.giamGia = giamGia;
+        this.giamGia = 0;
     }
-    
+    public sanpham(sanpham sp1, int i) {
+    }
+    public sanpham(sanpham sp2, int i, int j) {
+    }
     private double getThueNhapKhau() {
         return donGia * 0.1;
 
@@ -56,8 +61,11 @@ public class sanpham {
         return ;
         
     }
-    
+    public sanpham getTenSp(){  
+        return this;
     }
+    
+}
     
        
     

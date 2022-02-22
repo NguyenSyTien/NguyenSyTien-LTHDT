@@ -3,10 +3,12 @@ package lap4;
 
 
 public class  testSanpham {
-    public static void main(String[] args) {
-    sanpham sp1 = new sanpham();
-    sanpham sp2;
-       sp2 = new sanpham();
+
+    private static final sanpham sp2 = null;
+
+    public static void main(String [] args) {
+    sanpham sp1 = new sanpham(sp2, 10000,3000);
+    sanpham sp2 = new sanpham(sp1, 3000);
         sp1.nhap();
         
        
@@ -16,4 +18,6 @@ public class  testSanpham {
        sp2.xuat();
         
     }
-}
+    
+    }
+
