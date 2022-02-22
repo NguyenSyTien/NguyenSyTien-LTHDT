@@ -1,26 +1,31 @@
 package lap4;
 
+import java.util.Scanner;
+
 public class sanpham {
-    String tenSp;
-    double donGia;
-    double giamGia;
-    public String tenSp(){  
+   private String tenSp;
+   private double donGia;
+   private double giamGia;
+    public String getTenSp(){  
         return tenSp;
     }
     public void setTenSP(String tenSp){
         this.tenSp = tenSp;
     }
-    public double setDonGia(){
+    public double getDonGia(){
         return donGia;
     }
-    public void dongia(Double donGia){
+    public void setDongia(Double donGia){
         this.donGia = donGia;
     }
-    public double setGiamGia(){
+    public double getGiamGia(){
         return giamGia;
     }
-    public void giamGia(Double giamGia){
+    public void setgiamGia(Double giamGia){
         this.giamGia = giamGia;
+    }
+    public sanpham(){
+
     }
     public sanpham(String tenSp, Double donGia, Double giamGia){
         this.tenSp = tenSp;
@@ -42,7 +47,15 @@ public class sanpham {
         return ;
         
     }
-        
+    public void nhap(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("nhap ten san pham:\n");
+        tenSp = scanner.nextLine();
+        System.out.print("nhap don gia:\n");
+        donGia = scanner.nextDouble();
+        System.out.print("nhap giam gia:\n");
+        giamGia = scanner.nextDouble();
+        }
     }
     
        
