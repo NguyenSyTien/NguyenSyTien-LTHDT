@@ -39,14 +39,6 @@ public class sanpham {
 
         
     }
-    public void xuat() {
-        System.out.println("Ten San Pham:"+ tenSp);
-        System.out.println("DOnGia:"+ donGia);
-        System.out.println("giamGia:"+giamGia);
-        System.out.println("Thue Nhap Khau:"+ getThueNhapKhau());
-        return ;
-        
-    }
     public void nhap(){
         Scanner scanner = new Scanner(System.in);
         System.out.print("nhap ten san pham:\n");
@@ -56,6 +48,15 @@ public class sanpham {
         System.out.print("nhap giam gia:\n");
         giamGia = scanner.nextDouble();
         }
+    public void xuat() {
+        System.out.println("Ten San Pham:"+ tenSp);
+        System.out.println("DOnGia:"+ donGia);
+        System.out.println("giamGia:"+giamGia);
+        System.out.println("Thue Nhap Khau:"+ getThueNhapKhau());
+        return ;
+        
+    }
+    
     }
     
        
