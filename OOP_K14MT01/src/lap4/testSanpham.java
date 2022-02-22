@@ -8,10 +8,11 @@ public class  testSanpham {
     sanpham sp2;
        sp2 = new sanpham();
         sp1.nhap();
-        sp1.xuat();
+        
        
        
-       sp2.nhap(); 
+       sp2.nhap();
+       sp1.xuat(); 
        sp2.xuat();
         
     }
