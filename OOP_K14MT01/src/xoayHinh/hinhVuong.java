@@ -1,7 +1,7 @@
 package xoayHinh;
 
 public class hinhVuong {
-    String fileAmThanh;
+   private String fileAmThanh;
     public hinhVuong(String fileAmThanh){
         this.fileAmThanh = fileAmThanh;
     }

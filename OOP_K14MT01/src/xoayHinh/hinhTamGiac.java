@@ -1,7 +1,12 @@
 package xoayHinh;
 
 public class hinhTamGiac {
-    String fileAmThanh;
+   private String fileAmThanh;
+   public String getFileAmNhac(){
+       return fileAmThanh;
+   
+    }
+   
     public hinhTamGiac(String fileAmThanh){
         this.fileAmThanh = fileAmThanh;
     }
