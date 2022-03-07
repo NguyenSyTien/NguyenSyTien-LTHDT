@@ -16,7 +16,7 @@ public class sinhVien {
         this.diemLT = diemLT;
         this.diemTH = diemTH;
     }
-    //--------------begin getter and setter--------------------
+    //begin getter and setter
     public int getMaSoSinhVien() {
         return maSoSinhVien;
     }
