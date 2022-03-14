@@ -7,6 +7,10 @@ public class sinhVien {
     private float diemLT;
    private float diemTH;
     public  sinhVien() {
+        this.maSoSinhVien = 0;
+        this.diemLT = 0f;
+        this.diemTH = 0f;
+        this.hoTen = null;
  
     }
     //khởi tạo constructor có tham số
