@@ -10,7 +10,7 @@ public class testchuvi {
         dai = scanner.nextDouble();
         System.out.println("Nhập chiều rộng: ");
         rong = scanner.nextDouble();
-        System.out.println("diện tích hình chữ nhật là: " + tinhDienTich( dai,  rong);
+        System.out.println("diện tích hình chữ nhật là: " + tinhDienTich( dai, rong ));
         System.out.println("----------------------------");
 }
 

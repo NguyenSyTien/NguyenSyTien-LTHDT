@@ -32,6 +32,7 @@ public class HinhChuNhat {
    }
     public String toString(){
         String str = "chieu dai:"+ this.dai+"chieu rong:"+this.rong ;
+        return str;
         
     }
    
