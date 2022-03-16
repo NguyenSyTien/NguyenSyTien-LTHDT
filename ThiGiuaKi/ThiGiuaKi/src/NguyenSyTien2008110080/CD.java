@@ -55,15 +55,27 @@ public class CD {
     public void setGiaThanh(float giaThanh) {
         this.giaThanh = giaThanh;
     }
+    public void nhap(){
+        System.out.print("Nhap ma CD: ");
+       
+        this.maCD = scanner.nextInt();
+        scanner.nextLine();
+        System.out.print("Nhap tua CD: ");
+        this.tuaCD = scanner.nextLine();
+        System.out.print("Nhap ten ca sy: ");
+        this.caSy = scanner.nextLine();
+        System.out.print("Nhap so bai hat: ");
+        this.soBaiHat = scanner.nextInt();
+        System.out.print("Nhap gia thanh: ");
+        this.giaThanh = scanner.nextFloat();
+        
+    }
    
    
     public String toString(){
         return "CD{"+"CD"+maCD+"ten CD"+tuaCD+"ca sy"+caSy+"so bai hat"+soBaiHat+"gia thanh"+giaThanh;
     }
-    public void setTuaCD(int nextInt) {
-    }
-    public void hienThiAlbum() {
-    }
+    
     
 
 
