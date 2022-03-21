@@ -20,9 +20,7 @@ public class testCD {
             case 1: dsCD.listcd();break;
             case 2: dsCD.tongBaihat();break;
             case 3: dsCD.tongGiaThanhCD();break;
-            case 4: dsCD.sapXepGiamTheoGia();break;
-            case 5: dsCD.sapXepTangTheoTua();break;
-            case 6: dsCD.xuatDS();break;
+            case 4: dsCD.xuatDS();break;
         }
     }while(T != 0);
     }

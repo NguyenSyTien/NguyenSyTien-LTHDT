@@ -58,8 +58,9 @@ public class CD {
     public void nhap(){
         System.out.print("Nhap ma CD: ");
        
+        Scanner scanner;
         this.maCD = scanner.nextInt();
-        scanner.nextLine();
+        scanner.nextInt();
         System.out.print("Nhap tua CD: ");
         this.tuaCD = scanner.nextLine();
         System.out.print("Nhap ten ca sy: ");
