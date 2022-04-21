@@ -28,13 +28,7 @@ public class chuyenXeNgoaiThanh extends chuyenXe {
         this.soNgayDiDuoc=SoNgay;
         this.noiDen=noiDen;
     }
-    public void nhap(){
-        super.nhap();
-        System.out.println("noi den:");
-        this.noiDen=in.nextLine();
-        System.out.println("so ngay:");
-        this.soNgayDiDuoc=in.nextInt();
-    }
+   //
     public String toString(){
         return "chuyenXeNgoaiThanh"+super.toString()+"\nnoiDen"+noiDen+"\nsoNgayDiDuoc"+soNgayDiDuoc+"\nDoanhThu"+this.danhThu;
 

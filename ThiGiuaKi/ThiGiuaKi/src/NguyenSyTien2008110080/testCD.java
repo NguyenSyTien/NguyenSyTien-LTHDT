@@ -1,3 +1,5 @@
+package NguyenSyTien2008110080;
+
 import java.util.Scanner;
 
 public class testCD {
@@ -21,6 +23,7 @@ public class testCD {
             case 2: dsCD.tongBaihat();break;
             case 3: dsCD.tongGiaThanhCD();break;
             case 4: dsCD.xuatDS();break;
+            
         }
     }while(T != 0);
     }

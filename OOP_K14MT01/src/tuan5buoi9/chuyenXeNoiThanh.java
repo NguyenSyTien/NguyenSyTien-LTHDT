@@ -28,15 +28,9 @@ public class chuyenXeNoiThanh extends chuyenXe {
     public String getSoTuyen() {
         return SoTuyen;
     }
-    public void nhap(){
-        super.nhap();
-        System.out.println("nhap so tuyen:");
-        this.SoTuyen=in.nextLine();
-        System.out.println("So km:");
-        this.SoKm=in.nextDouble();
-    }
+    //
     public String toString(){
         return "\nchuyen xe noi thanh"+super.toString()+"\n so tuyen:"+this.SoTuyen+"\nso Km:"+this.SoKm+"\nDoanh thu:"+this.danhThu;
     }
-    
+     
 }

@@ -43,16 +43,16 @@ public class chuyenXe {
         this.soXe = SoXe;
         this.danhThu = DoanhThu;
     }
-    protected void nhap(){
-        System.out.println("nhap ma so chuyen xe :");
-        this.maSoChuyen = in.nextLine();
-        System.out.println("ho ten tai xe:");
-        this.hoTenTaiXe = in.nextLine();
-        System.out.println("so xe:");
-        this.soXe = in.nextLine();
-        System.out.println("Doanh Thu");
-        this.danhThu = in.nextDouble();
-    }
+    //protected void nhap(){
+      //  System.out.println("nhap ma so chuyen xe :");
+     //   this.maSoChuyen = in.nextLine();
+       // System.out.println("ho ten tai xe:");
+       // this.hoTenTaiXe = in.nextLine();
+       // System.out.println("so xe:");
+        //this.soXe = in.nextLine();
+      //  System.out.println("Doanh Thu");
+        //this.danhThu = in.nextDouble();
+   // }
     public String toString(){
         return"\nma so chuyen " + maSoChuyen + "\nho va ten tai xe "+hoTenTaiXe+"\nso xe"+soXe;
 
